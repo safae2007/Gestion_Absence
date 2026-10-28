@@ -8,6 +8,7 @@ function ajouterAbsence() {
   let row = table.insertRow();
 
   row.insertCell(0).innerText = nom;
-  
+
   row.insertCell(1).innerText = new Date().toLocaleDateString();
 }
+console.log("Projet finalise - 5 commits OK");
